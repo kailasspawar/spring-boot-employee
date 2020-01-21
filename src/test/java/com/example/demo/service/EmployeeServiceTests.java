@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
@@ -19,7 +19,7 @@ import com.example.demo.service.EmployeeService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-class SpringEmployeeAppApplicationTests {
+class EmployeeServiceTests {
 	
 	@Autowired
 	private EmployeeService employeeService;
